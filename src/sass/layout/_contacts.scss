@@ -42,6 +42,10 @@
   text-align: center;
 }
 
+.ft {
+  background-color: var(--another--card-color);
+}
+
 .contacts__place {
   margin-bottom: 10px;
   font-weight: 500;
@@ -108,15 +112,35 @@
 }
 
 .contacts__buttonitem {
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
   margin-bottom: 10px;
-  padding-top: 12px;
+  padding-left: 17px;
+  padding-right: 9px;
   &:last-child {
     margin-bottom: 0;
   }
   width: 161.45px;
   height: 44px;
   background-color: var(--auxiliary-color);
-  border-radius: 25px;
+  border-radius: 22px;
+
+  &:focus,
+  &:hover {
+    background-color: var(--header-text-color);
+  }
+
+  &:focus .contacts__svg,
+  &:hover .contacts__svg {
+    fill: var(--auxiliary-color);
+  }
+
+  &:hover .contactsbutton,
+  &:focus .contactsbutton {
+    background-color: var(--header-text-color);
+    color: var(--auxiliary-color);
+  }
 }
 
 .contacts__listtime {
@@ -128,9 +152,18 @@
 }
 
 .contactsbutton {
+  padding-top: 12px;
+  padding-bottom: 10px;
   background-color: var(--auxiliary-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.3;
   color: var(--header-text-color);
+}
+
+.contacts__svg {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 7px;
+  fill: var(--header-text-color);
 }
