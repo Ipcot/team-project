@@ -103,10 +103,13 @@
   margin-top: 34px;
   padding-bottom: 113px;
   list-style-type: none;
+  text-align: center;
+  align-items: center;
 }
 
 .contacts__buttonitem {
   margin-bottom: 10px;
+  padding-top: 12px;
   &:last-child {
     margin-bottom: 0;
   }
@@ -122,4 +125,12 @@
 
 .contacts__telpost {
   list-style-type: none;
+}
+
+.contactsbutton {
+  background-color: var(--auxiliary-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--header-text-color);
 }
