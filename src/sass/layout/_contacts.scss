@@ -1,5 +1,6 @@
 .contacts {
-  background-color: green;
+  margin-top: 0;
+  background-color: var(--primary-bg-color);
 }
 .contacts__h2 {
   color: turquoise;
@@ -7,4 +8,118 @@
 
 .contacts__hidden {
   visibility: hidden;
+}
+
+.contacts__list {
+  list-style-type: none;
+}
+
+.contacts__item {
+  margin-bottom: 20px;
+  padding: 43px 20px;
+  width: 220px;
+  background-color: var(--auxiliary-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  &:last-child {
+    margin-bottom: 0;
+  }
+  border-radius: 25px;
+}
+
+.contacts__categories {
+  margin-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: fit-content;
+  border-radius: 4px;
+  background-color: var(--button-cafe-color);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  color: var(--auxiliary-color);
+  align-items: center;
+  text-align: center;
+}
+
+.contacts__place {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.9;
+  letter-spacing: 0.04em;
+  color: var(--primary-text-color);
+}
+
+.contacts__text {
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--secondary-text-color);
+}
+
+.contacts__border {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px solid;
+  border-color: var(--border-contacts-color);
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.contacts__itemtime {
+  margin-bottom: 10px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.contacts__day {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.9;
+  color: var(--primary-text-color);
+}
+
+.contacts__time {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.9;
+  color: var(--primary-color);
+}
+
+.contacts__link {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+}
+
+.contacts__buttonlist {
+  margin-top: 34px;
+  padding-bottom: 113px;
+  list-style-type: none;
+}
+
+.contacts__buttonitem {
+  margin-bottom: 10px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  width: 161.45px;
+  height: 44px;
+  background-color: var(--auxiliary-color);
+  border-radius: 25px;
+}
+
+.contacts__listtime {
+  list-style-type: none;
+}
+
+.contacts__telpost {
+  list-style-type: none;
 }
