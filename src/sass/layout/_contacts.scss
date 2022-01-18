@@ -13,11 +13,14 @@
     );
   }
   @media screen and (min-width: 1280px) {
-    background-image: linear-gradient(
-      var(--auxiliary-color) 14%,
-      var(--primary-bg-color) 7%,
-      var(--primary-bg-color) 63%
-    );
+    background-image: url(/images/contacts-img/sectionbg1x.png),
+      linear-gradient(
+        var(--auxiliary-color) 14%,
+        var(--primary-bg-color) 7%,
+        var(--primary-bg-color) 63%
+      );
+    background-repeat: no-repeat;
+    background-position-y: 131px, 0;
   }
 }
 .contacts__h2 {
