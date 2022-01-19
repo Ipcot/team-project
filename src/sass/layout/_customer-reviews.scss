@@ -1,27 +1,30 @@
 .customer {
   height: 100%;
-  margin-bottom: 86px;
+  padding-bottom: 86px;
 }
 .content {
   justify-content: center;
   align-items: center;
 }
 
-.splide__pagination__page {
+button.splide__pagination__page {
   background-color: #d9d9d9;
-  margin: 4px;
+   width: 12px;
+  height: 12px;
+  margin: 35px 9px 0; 
 }
-.splide__pagination__page .is-active {
-  background: url('/images/customer-img/Group\ 8\ \(1\).svg');
+button.splide__pagination__page.is-active {
+  background: url('/images/customer-img/Vector\ \(2\).svg');
   border-radius: unset;
   width: 12px;
   height: 12px;
+  background-size: 12px 12px;
 }
-.splide__pagination {
-  margin-bottom: -10px;
+ul.splide__pagination {
+  position: relative;
 }
 
-.customer-wrapp img {
+.customer-foto  {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -89,6 +92,5 @@
   @include font('DM Sans', 500, 14px, 1.86, 0.03em);
   text-align: center;
   color: var(--primary-text-color);
-  margin-bottom: 30px;
   margin-top: 50px;
 }
