@@ -45,20 +45,15 @@
 .advantages__name {
     font-family: var(--header-text-family);
     background-color: var(--header-text-color);
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 1.14;
-    letter-spacing: 0.04em;
     text-transform: uppercase;
+    @include font(var(--header-text-family), 400, 36px, 1.14, 0.04em);
 
     margin-bottom: 13px;
-
-    color: var(--header-text-color);
     @media screen and (min-width:768px) {
-        font-size: 48px;
+        @include font(var(--header-text-family), 400, 48px, 1.14, 0.04em);
     }
     @media screen and (min-width:1200px) {
-        font-size: 58px;
+        @include font(var(--header-text-family), 400, 58px, 1.14, 0.04em);
     }
     position: relative;
     color: transparent;
@@ -116,11 +111,12 @@
     font-size: 12px;
     line-height: 1.7;
     color: var(--primary-text-color);
+    @include font(var(--primary-text-color), 700, 12px, 1.7, 0);
     @media screen and (min-width:768px) {
-        font-size: 14px;
+        @include font(var(--primary-text-color), 700, 14px, 1.74, 0);
     }
     @media screen and (min-width:1200px) {
-        font-size: 16px;
+        @include font(var(--primary-text-color), 700, 16px, 1.76, 0.02em);
     }
     @media screen and (min-width: 320px) and (max-width: 767px){
         max-width: 230px;

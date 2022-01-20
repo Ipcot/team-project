@@ -1,6 +1,15 @@
 .customer {
   height: 100%;
   padding-bottom: 86px;
+  padding-top: 80px;
+  @media screen and (min-width: 768px) {
+    padding-top: 121px;
+    padding-bottom: 119px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 123px;
+    padding-bottom: 132px;
+  }
 }
 .content {
   justify-content: center;
@@ -9,9 +18,9 @@
 
 button.splide__pagination__page {
   background-color: #d9d9d9;
-   width: 12px;
+  width: 12px;
   height: 12px;
-  margin: 35px 9px 0; 
+  margin: 35px 9px 0;
 }
 button.splide__pagination__page.is-active {
   background: url('/images/customer-img/house.svg');
@@ -24,11 +33,11 @@ ul.splide__pagination {
   position: relative;
 }
 
-.customer-foto  {
+.customer-foto {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 80px;
+
   padding-bottom: 29px;
 }
 

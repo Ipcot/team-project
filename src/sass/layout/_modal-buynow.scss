@@ -98,7 +98,7 @@
 
   &:hover,
   &:focus {
-    background: #ffffff;
+    background: #df1b4cbe;
   }
 }
 .modal__modal-button-icon {
@@ -113,11 +113,6 @@
   transition-property: background;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    fill: #d41443;
-  }
 }
 .modal__button-send {
   display: block;
@@ -141,6 +136,6 @@
 
   &:hover,
   &:focus {
-    background: #ffffff;
+    background: #df1b4cbe;
   }
 }

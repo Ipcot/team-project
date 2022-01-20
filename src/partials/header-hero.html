@@ -4,29 +4,28 @@
       <a href="index.html" class="header__logo" alt="logo">
         <!-- <img class="header__img" src="./images/hero-img/logo.png" width="50" height="50"/> -->
         icecream
+
       </a>
-      <div class="menu__backdrop js-menu-container" id="mobile-menu">
-        <div class="menu__container">
-          <button class="menu__toggle js-close-menu">
-            <svg width="14" height="14">
-              <use href="./images/hero-img/symbol-defs.svg#icon-close"></use>
+      <div class="menu__container js-menu-container" id="mobile-menu">
+        <button class="menu__toggle js-close-menu">
+          <svg width="14" height="14">
+            <use href="./images/hero-img/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="menu__nav">
+          <button class="menu__button" type="button" modal--buynow-open>Buy now
+            <svg class="menu__icon" width="7" height="10">
+              <use href="./images/hero-img/symbol-defs.svg#icon-arrow"></use>
             </svg>
           </button>
-          <nav class="menu__nav">
-            <button class="menu__button" type="button" modal--buynow-open>Buy now
-              <svg class="menu__icon" width="7" height="10">
-                <use href="./images/hero-img/symbol-defs.svg#icon-arrow"></use>
-              </svg>
-            </button>
-            <ul class="menu list">
-              <li class="menu__item"><a class="menu__link link" href="#home">Home</a></li>
-              <li class="menu__item"><a class="menu__link link" href="#advantages">About us</a></li>
-              <li class="menu__item"><a class="menu__link link" href="#about">How it’s made?</a></li>
-              <li class="menu__item"><a class="menu__link link" href="#products">Our products</a></li>
-              <li class="menu__item"><a class="menu__link link" href="#contacts">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
+          <ul class="menu list">
+            <li class="menu__item"><a class="menu__link link" href="#home">Home</a></li>
+            <li class="menu__item"><a class="menu__link link" href="#advantages">About us</a></li>
+            <li class="menu__item"><a class="menu__link link" href="#about">How it’s made?</a></li>
+            <li class="menu__item"><a class="menu__link link" href="#products">Our products</a></li>
+            <li class="menu__item"><a class="menu__link link" href="#contacts">Contact</a></li>
+          </ul>
+        </nav>
       </div>
       <button type="button" class="menu__toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
         <svg width="20" height="12">
@@ -42,67 +41,13 @@
     <div class="hero__conteiner">
       <div class="hero__circle"></div>
       <picture class="hero__img">
-        <source srcset="./images/hero-img/ice-desk/ice-img-desk1x-cup.png 1x,
-                        ./images/hero-img/ice-desk/ice-img-desk2x-cup.png 2x" media="(min-width: 1280px)">
-        <source srcset="./images/hero-img/ice-tabl/ice-img-tabl1x-cup.png 1x,
-                        ./images/hero-img/ice-tabl/ice-img-tabl2x-cup.png 2x" media="(min-width: 768px)">
-        <source srcset="./images/hero-img/ice-mob/ice-img-mob1x-cup.png 1x,
-                        ./images/hero-img/ice-mob/ice-img-mob2x-cup.png 2x" media="(min-width: 320px)">
-        <img class="card__image" src="./images/hero-img/Ice-mob/ice-img-mob1x-cup.png" alt="icecrem" />
-      </picture>
-      <picture class="hero__img__red">
-        <source srcset="./images/hero-img/ice-desk/ice-img-desk1x-2.png 1x,
-                        ./images/hero-img/ice-desk/ice-img-desk2x-2.png 2x" media="(min-width: 1280px)">
-        <source srcset="./images/hero-img/ice-tabl/ice-img-tabl1x-2.png 1x,
-                        ./images/hero-img/ice-tabl/ice-img-tabl2x-2.png 2x" media="(min-width: 768px)">
-        <source srcset="./images/hero-img/ice-mob/ice-img-mob1x-2.png 1x,
-                        ./images/hero-img/ice-mob/ice-img-mob2x-2.png 2x" media="(min-width: 320px)">
-        <img class="card__image" src="./images/hero-img/Ice-mob/ice-img-mob1x-2.png" alt="icecrem" />
-      </picture>
-      <picture class="hero__img__orange">
-        <source srcset="./images/hero-img/ice-desk/ice-img-desk1x-3.png 1x,
-                        ./images/hero-img/ice-desk/ice-img-desk2x-3.png 2x" media="(min-width: 1280px)">
-        <source srcset="./images/hero-img/ice-tabl/ice-img-tabl1x-3.png 1x,
-                        ./images/hero-img/ice-tabl/ice-img-tabl2x-3.png 2x" media="(min-width: 768px)">
-        <source srcset="./images/hero-img/ice-mob/ice-img-mob1x-3.png 1x,
-                        ./images/hero-img/ice-mob/ice-img-mob2x-3.png 2x" media="(min-width: 320px)">
-        <img class="card__image" src="./images/hero-img/Ice-mob/ice-img-mob1x-3.png" alt="icecrem" />
-      </picture>
-      <picture class="hero__img__green">
-        <source srcset="./images/hero-img/ice-desk/ice-img-desk1x-4.png 1x,
-                        ./images/hero-img/ice-desk/ice-img-desk2x-4.png 2x" media="(min-width: 1280px)">
-        <source srcset="./images/hero-img/ice-tabl/ice-img-tabl1x-4.png 1x,
-                        ./images/hero-img/ice-tabl/ice-img-tabl2x-4.png 2x" media="(min-width: 768px)">
-        <source srcset="./images/hero-img/ice-mob/ice-img-mob1x-4.png 1x,
-                        ./images/hero-img/ice-mob/ice-img-mob2x-4.png 2x" media="(min-width: 320px)">
-        <img class="card__image" src="./images/hero-img/Ice-mob/ice-img-mob1x-4.png" alt="icecrem" />
-      </picture>
-      <picture class="hero__img__peach">
-        <source srcset="./images/hero-img/ice-desk/ice-img-desk1x-5.png 1x,
-                        ./images/hero-img/ice-desk/ice-img-desk2x-5.png 2x" media="(min-width: 1280px)">
-        <source srcset="./images/hero-img/ice-tabl/ice-img-tabl1x-5.png 1x,
-                        ./images/hero-img/ice-tabl/ice-img-tabl2x-5.png 2x" media="(min-width: 768px)">
-        <source srcset="./images/hero-img/ice-mob/ice-img-mob1x-5.png 1x,
-                        ./images/hero-img/ice-mob/ice-img-mob2x-5.png 2x" media="(min-width: 320px)">
-        <img class="card__image" src="./images/hero-img/Ice-mob/ice-img-mob1x-5.png" alt="icecrem" />
-      </picture>
-      <picture class="hero__img__yellow">
-        <source srcset="./images/hero-img/ice-desk/ice-img-desk1x-6.png 1x,
-                        ./images/hero-img/ice-desk/ice-img-desk2x-6.png 2x" media="(min-width: 1280px)">
-        <source srcset="./images/hero-img/ice-tabl/ice-img-tabl1x-6.png 1x,
-                        ./images/hero-img/ice-tabl/ice-img-tabl2x-6.png 2x" media="(min-width: 768px)">
-        <source srcset="./images/hero-img/ice-mob/ice-img-mob1x-6.png 1x,
-                        ./images/hero-img/ice-mob/ice-img-mob2x-6.png 2x" media="(min-width: 320px)">
-        <img class="card__image" src="./images/hero-img/Ice-mob/ice-img-mob1x-6.png" alt="icecrem" />
-      </picture>
-      <picture class="hero__img__white">
-        <source srcset="./images/hero-img/ice-desk/ice-img-desk1x-7.png 1x,
-                        ./images/hero-img/ice-desk/ice-img-desk2x-7.png 2x" media="(min-width: 1280px)">
-        <source srcset="./images/hero-img/ice-tabl/ice-img-tabl1x-7.png 1x,
-                        ./images/hero-img/ice-tabl/ice-img-tabl2x-7.png 2x" media="(min-width: 768px)">
-        <source srcset="./images/hero-img/ice-mob/ice-img-mob1x-7.png 1x,
-                        ./images/hero-img/ice-mob/ice-img-mob2x-7.png 2x" media="(min-width: 320px)">
-        <img class="card__image" src="./images/hero-img/Ice-mob/ice-img-mob1x-7.png" alt="icecrem" />
+        <source srcset="./images/hero-img/ice-img-desk1x.png 1x,
+                                          ./images/hero-img/ice-img-desk2x.png 2x" media="(min-width: 1280px)" />
+        <source srcset="./images/hero-img/ice-img-tabl1x.png 1x,
+                                          ./images/hero-img/ice-img-tabl2x.png 2x" media="(min-width: 768px)" />
+        <source srcset="./images/hero-img/ice-img-mob1x.png 1x,
+                                          ./images/hero-img/ice-img-mob2x.png 2x" media="(min-width: 320px)" />
+        <img class="card__image" src="./images/hero-img/ice-img-mob1x.png" alt="icecrem" />
       </picture>
       <div class=hero__title>
         <h1 class="hero__master">ice cream
@@ -110,30 +55,21 @@
           <span class="master">passion</span>
         </h1>
         <ul class="button__list list">
-          <li class="button__item"><a class="button__link button__products" href="#products" alt="Products">Products</a>
-          </li>
-          <li class="button__item"><a class="button__link button__made" href="#about" alt="How it’s made?">How it’s
-              made?</a></li>
+          <li class="button__item"><a class="button__link button__products" href="#products" alt="Products">Products</a></li>
+          <li class="button__item"><a class="button__link button__made" href="#about" alt="How it’s made?">How it’s made?</a></li>
         </ul>
       </div>
       <div class="description__wrapper">
         <picture class="description__img">
           <source srcset="./images/hero-img/milk-img-desk1x.png 1x,
-                                                  ./images/hero-img/milk-img-desk2x.png 2x"
-            media="(min-width: 1280px)" />
+                                                  ./images/hero-img/milk-img-desk2x.png 2x" media="(min-width: 1280px)" />
           <source srcset="./images/hero-img/milk-img-tabl1x.png 1x,
-                                                  ./images/hero-img/milk-img-tabl2x.png 2x"
-            media="(min-width: 768px)" />
+                                                  ./images/hero-img/milk-img-tabl2x.png 2x" media="(min-width: 768px)" />
           <img class="card__image" src="./images/hero-img/milk-img-tabl1x.png" alt="icecrem" />
         </picture>
         <div class="description__box">
-          <p class="description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et</p>
-          <button class="description__button" type="button">
-            <svg class="description__svg" width="7px" height="7px">
-              <use href="./images/hero-img/symbol-defs.svg#icon-arrow"></use>
-            </svg>
-          </button>
+          <p class="description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+          <button class="description__button" type="button"></button>
         </div>
       </div>
       <div class="info__wrapper">
@@ -152,3 +88,5 @@
     </div>
   </div>
 </header>
+
+
